@@ -1,4 +1,4 @@
-# Vecu
+# Vécu
 
 Hands off. Mind on.
 
