@@ -1,6 +1,8 @@
 import { readFile } from 'node:fs/promises'
 import type { OctokitResponse } from '@octokit/types'
 
+export async function collectIssueContext() {}
+
 async function main(input: string) {
   const data = await readFile(input, 'utf-8')
   const { body, comments } = JSON.parse(data) as {
