@@ -1,0 +1,23 @@
+{
+  "name": "@vecu/issue-context-collector",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Zeadust",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@octokit/core": "^7.0.6",
+    "dotenv": "^17.4.2"
+  }
+}
